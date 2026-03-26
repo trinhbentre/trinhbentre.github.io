@@ -31,9 +31,9 @@ export const tools: Tool[] = [
   {
     name: 'Crypto Tool',
     slug: 'crypto-tool',
-    description: 'AES-GCM encrypt and decrypt text with a passphrase.',
+    description: 'AES-GCM/CBC/CTR encrypt/decrypt, RSA-OAEP, RSA-PSS & ECDSA sign/verify, AES/RSA/EC key generation — all client-side via Web Crypto API. Passphrase (PBKDF2) or raw key, PEM/JWK support, details panel.',
     icon: '🔐',
-    tags: ['AES', 'Encrypt', 'Decrypt'],
+    tags: ['AES', 'RSA', 'ECDSA', 'Encrypt', 'Decrypt', 'Sign', 'Verify', 'KeyGen', 'Crypto'],
   },
   {
     name: 'Encoding Tool',
