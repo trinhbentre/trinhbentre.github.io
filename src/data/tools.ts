@@ -17,16 +17,16 @@ export const tools: Tool[] = [
   {
     name: 'JWT Debugger',
     slug: 'jwt-debugger',
-    description: 'Decode and inspect JWT header, payload, and signature.',
+    description: 'Decode, verify, and audit JWTs. Multi-tab workspace, signature verification (HMAC/RSA/EC/JWKS), security audit, diff view, history, and code snippets — all client-side.',
     icon: '🔑',
-    tags: ['JWT', 'Auth', 'Decode'],
+    tags: ['JWT', 'Auth', 'Decode', 'Verify', 'Security'],
   },
   {
-    name: 'Hash Tool',
+    name: 'Hash Pro Tool',
     slug: 'hash-tool',
-    description: 'Generate SHA-1, SHA-256, SHA-384, SHA-512 hashes from text.',
+    description: 'Hash text or files with SHA-1/256/384/512 and MD5. Supports HMAC, hash verification with auto-algorithm detection, and file drag-and-drop — all client-side.',
     icon: '#',
-    tags: ['Hash', 'SHA', 'Crypto'],
+    tags: ['Hash', 'SHA', 'MD5', 'HMAC', 'Verify', 'File'],
   },
   {
     name: 'Crypto Tool',
