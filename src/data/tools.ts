@@ -24,9 +24,9 @@ export const tools: Tool[] = [
   {
     name: 'Hash Pro Tool',
     slug: 'hash-tool',
-    description: 'Hash text or files with SHA-1/256/384/512 and MD5. Supports HMAC, hash verification with auto-algorithm detection, and file drag-and-drop — all client-side.',
+    description: 'MD5, SHA-1/256/384/512, SHA-3, CRC32 hashing + HMAC, file hashing (streaming, supports large files), batch mode, checksum verifier, compare hashes, multi-hash preview — all client-side.',
     icon: '#',
-    tags: ['Hash', 'SHA', 'MD5', 'HMAC', 'Verify', 'File'],
+    tags: ['Hash', 'SHA', 'MD5', 'HMAC', 'SHA3', 'CRC32', 'Verify', 'File'],
   },
   {
     name: 'Crypto Tool',
