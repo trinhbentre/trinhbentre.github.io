@@ -10,9 +10,9 @@ export const tools: Tool[] = [
   {
     name: 'JSON Beautify',
     slug: 'json-beautify',
-    description: 'Format, validate, and minify JSON with syntax highlighting.',
+    description: 'Format, minify, repair & validate JSON. Tree, Table, Diagram, and Convert views (YAML/TypeScript/CSV/Go/Java/C#), JQ query panel, JSON Schema validation, PII masking, file upload with large-file streaming — all client-side.',
     icon: '{ }',
-    tags: ['JSON', 'Format', 'Validate'],
+    tags: ['JSON', 'Format', 'Validate', 'Tree', 'JQ', 'Convert', 'Schema', 'PII'],
   },
   {
     name: 'JWT Debugger',
@@ -38,8 +38,8 @@ export const tools: Tool[] = [
   {
     name: 'Encoding Tool',
     slug: 'encoding-tool',
-    description: 'Base64 and URL encode/decode text instantly.',
+    description: 'Base64, URL, HTML Entities, JSON Escape, Unicode & Hex encode/decode. Auto-detects encoding type, live transform mode, keyboard shortcuts — all client-side.',
     icon: '≈',
-    tags: ['Base64', 'URL', 'Encode'],
+    tags: ['Base64', 'URL', 'HTML', 'Unicode', 'Hex', 'Encode'],
   },
 ]

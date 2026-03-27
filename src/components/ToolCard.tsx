@@ -5,7 +5,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
   return (
     <a
       href={url}
-      className="card group flex flex-col gap-3 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 no-underline"
+      className="card-interactive group flex flex-col gap-3 hover:shadow-lg hover:shadow-accent/5 transition-all duration-200 no-underline"
     >
       <div className="flex items-center gap-3">
         <span className="text-xl w-10 h-10 flex items-center justify-center bg-surface-700 rounded-md text-accent font-mono shrink-0">
@@ -22,7 +22,7 @@ export function ToolCard({ tool }: { tool: Tool }) {
         {tool.tags.map(tag => (
           <span
             key={tag}
-            className="text-xs px-2 py-0.5 rounded bg-surface-700 text-text-muted border border-surface-600"
+            className="tag"
           >
             {tag}
           </span>
