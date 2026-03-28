@@ -42,4 +42,11 @@ export const tools: Tool[] = [
     icon: '≈',
     tags: ['Base64', 'URL', 'HTML', 'Unicode', 'Hex', 'Encode'],
   },
+  {
+    name: 'TurboDownload',
+    slug: 'turbo-download',
+    description: 'Accelerate downloads with parallel HTTP Range requests. Paste any URL, choose connection count, and download at maximum speed using chunked parallel fetching. CLI fallback commands (aria2c/curl/wget) for CORS-restricted URLs — all client-side.',
+    icon: '⚡',
+    tags: ['Download', 'Parallel', 'Range', 'Speed', 'aria2c', 'curl', 'wget'],
+  },
 ]
